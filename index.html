@@ -1,0 +1,21 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>janmashtami-ar-poc</title>
+  </head>
+  <body>
+    <div id="root"></div>
+
+    <!-- A-Frame must load first -->
+    <script src="https://aframe.io/releases/1.4.2/aframe.min.js"></script>
+
+    <!-- MindAR loads after A-Frame -->
+    <script src="/mind-ar.js" defer></script>
+
+    <!-- React -->
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>
