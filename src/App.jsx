@@ -57,8 +57,14 @@ function App() {
       device-orientation-permission-ui="enabled: false"
     >
       <a-assets timeout="10000">
-        <a-asset-item id="lotusModel" src="/models/lotus.glb" />
-        <a-asset-item id="sheshnagModel" src="/models/sheshnag.glb" />
+        <a-asset-item
+          id="lotusModel"
+          src="/janmashtami-fancy-dress/models/lotus.glb"
+        />
+        <a-asset-item
+          id="sheshnagModel"
+          src="/janmashtami-fancy-dress/models/sheshnag.glb"
+        />
       </a-assets>
 
       <a-light type="directional" position="1 2 2" intensity="2" />
